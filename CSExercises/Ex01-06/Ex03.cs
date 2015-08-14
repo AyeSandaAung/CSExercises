@@ -10,8 +10,9 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            Console.Write("Please enter your number : ");
-            int x = 0;
+            Console.Write("Please enter double number : ");
+            double x = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("The square of the number is : {0}", Math.Pow(x,x));
 
         }
     }
