@@ -11,7 +11,7 @@ namespace CSExercises
         public static void Main(string[] args)
         {
             Console.Write("Please enter your number : ");
-            
+            int x = 0;
 
         }
     }
