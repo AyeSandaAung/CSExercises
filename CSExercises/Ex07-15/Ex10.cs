@@ -25,10 +25,6 @@ namespace CSExercises
             //Distance = square root of [(x2-x1)*(x2-x1) + (y2-y1)*(y2-y1)];
             double distance = Math.Sqrt(((x2 - x1) * (x2 - x1)) + ((y2 - y1) * (y2 - y1)));
             Console.WriteLine("SquareRoot of the Distance is {0:0.000}",distance);
-
-             
-
-
         }
     }
 }
