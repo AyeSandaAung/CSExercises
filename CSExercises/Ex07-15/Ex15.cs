@@ -31,6 +31,14 @@ namespace CSExercises
             y = Convert.ToInt32(Math.Pow(y, 3));
             z = Convert.ToInt32(Math.Pow(z, 3));
             Console.WriteLine("The result of 3digit number is {0}", x+y+z);
+            if(x+y+z == a)
+            {
+                Console.WriteLine("Armstrong Number");
+            }
+            else
+            {
+                Console.WriteLine("No Armstrong Number");
+            }
         }
     }
 }

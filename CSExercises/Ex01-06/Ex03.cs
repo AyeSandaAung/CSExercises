@@ -12,7 +12,7 @@ namespace CSExercises
         {
             Console.Write("Please enter double number : ");
             double x = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("The square of the number is : {0}", Math.Pow(x,x));
+            Console.WriteLine("The square of the number is : {0}", Math.Pow(x,2));
 
         }
     }

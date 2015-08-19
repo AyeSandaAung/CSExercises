@@ -12,7 +12,7 @@ namespace CSExercises
         {
             Console.Write("Please Enter x value : ");
             double x = Convert.ToDouble(Console.ReadLine());  
-            double y=2*(x*x)-((4*x)+3);
+            double y=2*(x*x)-(4*x)+3;
             Console.WriteLine(y);
         }
     }

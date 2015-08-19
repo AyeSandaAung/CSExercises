@@ -13,16 +13,7 @@ namespace CSExercises
 
             Console.Write("Please enter the distance travel km : ");
             double x = Convert.ToDouble(Console.ReadLine());
-            double totalFare;
-            double additionFare;
-
-            if (x > 2.40)
-            {
-                additionFare = Math.Abs(x - 2.40) * 0.4;
-                totalFare = 2.40 + (x * additionFare);
-            }
-            else
-                totalFare = 2.40 + x;
+            double totalFare = 2.40 + x * 0.4;
             Console.WriteLine("The total fare is : {0:0.00}", Math.Ceiling(totalFare));
         }
     }
